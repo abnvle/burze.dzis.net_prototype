@@ -23,7 +23,7 @@ def load_image(image_url):
     image = Image.open(BytesIO(image_data))
     image_tk = ImageTk.PhotoImage(image)
     label.configure(image=image_tk)
-    label.image = image_tk  # Zachowanie referencji, aby obraz nie został usunięty przez garbage collector
+    label.image = image_tk
 
 # Funkcje obsługujące zdarzenia kliknięcia przycisków
 def load_general_map():
