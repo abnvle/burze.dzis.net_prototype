@@ -1,4 +1,4 @@
-# burze_dzis_net-prototype
+# burze.dzis.net-prototype
 
 The burzeGUI.py file was compiled for Linux Mint <br />
 Compilation: ``` pyinstaller --onefile burzeGUI.py --hidden-import='PIL._tkinter_finder' ```
